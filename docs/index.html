@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toronto Parking App</title>
+    <meta name="description" content="Toronto Parking app landing page for free and paid parking in Toronto" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav">
+        <div class="brand">
+          <div class="brand-mark">P</div>
+          <span>Toronto Parking</span>
+        </div>
+        <nav>
+          <a href="#features">Features</a>
+          <a href="#preview">Preview</a>
+          <a href="#download">Download</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <span class="badge">Toronto • Free & Paid Parking</span>
+            <h1>Find the best parking in Toronto faster.</h1>
+            <p>
+              Discover free parking spots, compare paid zones, save favorites,
+              and get a route to your destination in a few taps.
+            </p>
+
+            <div class="cta-row">
+              <a href="#download" class="btn primary">Try the app</a>
+              <a href="#preview" class="btn secondary">See demo</a>
+            </div>
+
+            <ul class="stats">
+              <li><strong>30+</strong><span>Nearby spots</span></li>
+              <li><strong>Free</strong><span>Green zones</span></li>
+              <li><strong>Paid</strong><span>Smart pricing</span></li>
+            </ul>
+          </div>
+
+          <div class="phone-frame" id="preview">
+            <div class="phone-screen">
+              <div class="screen-header">
+                <div>
+                  <p class="small-label">Toronto</p>
+                  <h3>Parking</h3>
+                </div>
+                <div class="dot-group">
+                  <span class="dot blue"></span>
+                  <span class="dot gray"></span>
+                  <span class="dot gray"></span>
+                </div>
+              </div>
+
+              <div class="search-box">Search parking near me</div>
+
+              <div class="filter-row">
+                <span class="chip active">All</span>
+                <span class="chip">Free</span>
+                <span class="chip">Paid</span>
+              </div>
+
+              <div class="map-box">
+                <div class="map-road road-1"></div>
+                <div class="map-road road-2"></div>
+                <div class="map-pin pin-green"></div>
+                <div class="map-pin pin-orange"></div>
+                <div class="map-pin pin-blue"></div>
+                <div class="route-line"></div>
+              </div>
+
+              <div class="mini-card">
+                <div class="mini-icon green">Free</div>
+                <div class="mini-info">
+                  <strong>Queen West Lot</strong>
+                  <span>0.8 km • 5 min walk</span>
+                </div>
+                <span class="price-tag">Free</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="features container" id="features">
+        <div class="section-heading">
+          <span class="badge alt">Why users love it</span>
+          <h2>Built for quick parking decisions.</h2>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card">
+            <div class="icon-box green">✓</div>
+            <h3>Free parking finder</h3>
+            <p>See free zones clearly with green markers and distance-based sorting.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="icon-box orange">$</div>
+            <h3>Paid parking pricing</h3>
+            <p>Compare hourly costs and choose the most convenient option fast.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="icon-box blue">★</div>
+            <h3>Favorites saved</h3>
+            <p>Save frequent parking spots locally and access them anytime.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="download container" id="download">
+        <div class="download-card">
+          <div>
+            <span class="badge alt">Project status</span>
+            <h2>GitHub Pages preview is ready to publish.</h2>
+            <p>
+              The web landing page is already in the repository. To make it live,
+              go to GitHub → Settings → Pages and select the <strong>docs</strong> folder.
+            </p>
+          </div>
+          <a href="https://github.com/pismiagorr/TorontoParkingApp" class="btn primary" target="_blank" rel="noreferrer">Open repository</a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
